@@ -49,18 +49,18 @@ function App() {
 
   // List of customer feedback screenshots (all 12 files)
   const customerImages = [
-    { src: '/images/customers/photo_1_2026-05-06_08-57-07.jpg', user: 'Hoàng Lâm', quote: 'Thanks CoinLye team, entered $WIF early!' },
-    { src: '/images/customers/photo_1_2026-05-06_08-59-08.jpg', user: 'Thế Vinh', quote: 'VIP signals are incredibly fast!' },
-    { src: '/images/customers/photo_2_2026-05-06_08-57-07.jpg', user: 'Vũ Đức', quote: 'First time trading on-chain, easy +8 SOL.' },
-    { src: '/images/customers/photo_2_2026-05-06_08-59-08.jpg', user: 'Mạnh Hùng', quote: 'Highly accurate, 5/5 stars!' },
-    { src: '/images/customers/photo_3_2026-05-06_08-57-07.jpg', user: 'Thanh Hằng', quote: 'Copy trading bot works flawlessly 24/7!' },
-    { src: '/images/customers/photo_4_2026-05-06_08-57-07.jpg', user: 'Quốc Bảo', quote: 'Always trust your process, +500%!' },
-    { src: '/images/customers/photo_5_2026-05-06_08-57-07.jpg', user: 'Duy Khánh', quote: 'Already made back VIP fee in 2 days!' },
-    { src: '/images/customers/photo_6_2026-05-06_08-57-07.jpg', user: 'Mai Phương', quote: 'The community support is amazing!' },
-    { src: '/images/customers/photo_8_2026-05-06_08-57-07.jpg', user: 'Đăng Khoa', quote: 'Easiest profit I have ever made.' },
-    { src: '/images/customers/photo_9_2026-05-06_08-57-07.jpg', user: 'Bảo Trâm', quote: 'Signals are very clear with detailed SL/TP!' },
-    { src: '/images/customers/photo_16_2026-05-06_08-57-07.jpg', user: 'Tuấn Kiệt', quote: 'Solana trading feels so simple now.' },
-    { src: '/images/customers/photo_19_2026-05-06_08-57-07.jpg', user: 'Minh Thư', quote: 'I recommend this to all my friends!' }
+    { src: '/images/customers/photo_1_2026-05-06_08-57-07.jpg', user: 'Alex L.', quote: 'Thanks CoinLye team, entered $WIF early!' },
+    { src: '/images/customers/photo_1_2026-05-06_08-59-08.jpg', user: 'Victor T.', quote: 'VIP signals are incredibly fast!' },
+    { src: '/images/customers/photo_2_2026-05-06_08-57-07.jpg', user: 'David V.', quote: 'First time trading on-chain, easy +8 SOL.' },
+    { src: '/images/customers/photo_2_2026-05-06_08-59-08.jpg', user: 'Mike H.', quote: 'Highly accurate, 5/5 stars!' },
+    { src: '/images/customers/photo_3_2026-05-06_08-57-07.jpg', user: 'Sarah H.', quote: 'Copy trading bot works flawlessly 24/7!' },
+    { src: '/images/customers/photo_4_2026-05-06_08-57-07.jpg', user: 'Brian Q.', quote: 'Always trust your process, +500%!' },
+    { src: '/images/customers/photo_5_2026-05-06_08-57-07.jpg', user: 'Justin D.', quote: 'Already made back VIP fee in 2 days!' },
+    { src: '/images/customers/photo_6_2026-05-06_08-57-07.jpg', user: 'Mary M.', quote: 'The community support is amazing!' },
+    { src: '/images/customers/photo_8_2026-05-06_08-57-07.jpg', user: 'Daniel D.', quote: 'Easiest profit I have ever made.' },
+    { src: '/images/customers/photo_9_2026-05-06_08-57-07.jpg', user: 'Bella B.', quote: 'Signals are very clear with detailed SL/TP!' },
+    { src: '/images/customers/photo_16_2026-05-06_08-57-07.jpg', user: 'Kevin T.', quote: 'Solana trading feels so simple now.' },
+    { src: '/images/customers/photo_19_2026-05-06_08-57-07.jpg', user: 'Chloe M.', quote: 'I recommend this to all my friends!' }
   ];
 
   // List of available feedback videos
@@ -325,7 +325,7 @@ function App() {
             </p>
           </div>
 
-          {/* Interactive Screen Grid (Ảnh Cộng đồng VIP) */}
+          {/* Interactive Screen Grid (VIP Community Photos) */}
           <div className="community-grid-responsive" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(320px, 1fr))', gap: '30px', marginBottom: '40px' }}>
             {communityImages.map((img, index) => (
               <div 
@@ -372,7 +372,7 @@ function App() {
               <div className="chat-bubble">
                 <div className="tg-avatar" style={{ width: '24px', height: '24px', fontSize: '0.65rem' }}>AN</div>
                 <div style={{ flex: 1 }}>
-                  <span className="chat-user">Alex Nguyen: </span>
+                  <span className="chat-user">Alex N.: </span>
                   <span className="chat-text">"DONE +16 SOL from the latest $WIF signal. VIP group is phenomenal!"</span>
                 </div>
               </div>
@@ -380,7 +380,7 @@ function App() {
               <div className="chat-bubble">
                 <div className="tg-avatar" style={{ width: '24px', height: '24px', fontSize: '0.65rem', background: '#7C3AED' }}>MT</div>
                 <div style={{ flex: 1 }}>
-                  <span className="chat-user">Minh Tuấn: </span>
+                  <span className="chat-user">Michael T.: </span>
                   <span className="chat-text">"STILL HOLDING 50% bag. This is literally free money printing at this point."</span>
                 </div>
               </div>
@@ -450,7 +450,7 @@ function App() {
           </div>
         </section>
 
-        {/* NEW SECTION: REAL VIDEO FEEDBACK PROOF (Video Feedback khách hàng) */}
+        {/* NEW SECTION: REAL VIDEO FEEDBACK PROOF (Customer Video Feedback) */}
         <section id="video-feedback" className="container" style={{ borderTop: '1px solid rgba(168, 85, 247, 0.1)' }}>
           <div className="section-title">
             <span className="badge-neon" style={{ marginBottom: '12px' }}>
@@ -519,11 +519,11 @@ function App() {
           </div>
         </section>
 
-        {/* SECTION 4 — VIP BENEFITS & TESTIMONIAL CARDS (Ảnh Khách hàng) */}
+        {/* SECTION 4 — VIP BENEFITS & TESTIMONIAL CARDS (Customer Photos) */}
         <section id="benefits" className="container" style={{ borderTop: '1px solid rgba(168, 85, 247, 0.1)' }}>
           <div className="section-title">
             <span className="badge-neon" style={{ marginBottom: '12px' }}>
-              <Users size={14} style={{ marginRight: '4px' }} /> Client Testimonials
+              <Users size={14} style={{ marginRight: '4px' }} /> SUCCESS STORIES
             </span>
             <h2 className="title-neon" style={{ fontSize: '2.5rem' }}>
               CLIENT SUCCEED <span className="text-purple-neon">WITH COINLYE</span>
